@@ -1,0 +1,21 @@
+.result {
+  max-width: 60rem;
+  table-layout: fixed;
+  border-spacing: 1rem;
+  text-align: left;
+}
+
+.result thead {
+  color: #000000;
+}
+
+.result thead img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.result tbody {
+  font-family: "Outfit", sans-serif;
+  font-size: 0.9rem;
+  color: #000000;
+}

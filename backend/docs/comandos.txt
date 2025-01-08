@@ -1,0 +1,6 @@
+#iniciar o pacote node js
+npm init -y
+
+npm install express express-handlebars morgan firebase-admin dotenv
+
+npm install nodemon -D

@@ -1,0 +1,8 @@
+.delete-confirmation {
+  padding: 2rem;
+}
+
+.delete-confirmation p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

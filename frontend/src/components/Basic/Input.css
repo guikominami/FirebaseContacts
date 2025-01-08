@@ -1,0 +1,43 @@
+.input-span {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.input-span label {
+  font-size: smaller;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(99, 96, 96);
+}
+
+.input-span input,
+textarea {
+  resize: none;
+  width: 100%;
+  padding: 0.25rem;
+  border: 0;
+  border-bottom: 3px solid #838181;
+  background-color: rgb(234, 232, 232);
+  color: rgb(93, 92, 92);
+  outline-style: none;
+  font-family: inherit;
+}
+
+.input-span input:focus {
+  outline: none;
+  resize: none;
+  border: 2px solid #6d6b6b;
+}
+
+.input-span button {
+  background-color: rgb(114, 113, 113);
+  color: rgb(188, 187, 187);
+}
+
+button:hover {
+  background-color: rgb(83, 81, 81);
+  color: white;
+}

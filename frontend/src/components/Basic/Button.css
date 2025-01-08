@@ -1,0 +1,32 @@
+button {
+  border-style: none;
+  font-family: inherit;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin-right: 0.5rem;
+  font-size: small;
+  border-radius: 0.4rem;
+  border: 1px solid transparent;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.cancel {
+  color: #2d2c2c;
+  background-color: white;
+}
+
+.save {
+  color: #e0dddd;
+  background-color: #3a3838;
+}
+
+.save:hover {
+  background-color: #060606;
+  color: #fffcfc;
+}
+
+.cancel:hover {
+  color: #2d2c2c;
+  background-color: #e1dfdf;
+}
